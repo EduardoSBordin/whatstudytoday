@@ -1,10 +1,10 @@
 
-#displayPhp{
+#displayPhpIndex{
 
     background: rgba(95, 158, 160, 0);
     width: 100%;
     height: auto;
-    display: none;
+    display: flex;
     flex-direction: row;
     flex-wrap:wrap;
 }
