@@ -33,50 +33,50 @@ function getDayFunction(){
     
         console.log('Sunday');
     
-        displayJS.style.display = "none";
-        displayPhp.style.display = "flex";
+        displayJS.style.display = "flex";
+        displayPhp.style.display = "none";
     }
     else if(getDay == 1){
     
         console.log('Monday');
     
-        displayJS.style.display = "flex";
-        displayPhp.style.display = "none";
+        displayJS.style.display = "none";
+        displayPhp.style.display = "flex";
     }
     else if(getDay == 2){
     
         console.log('Tuesday');
     
-        displayJS.style.display = "none";
-        displayPhp.style.display = "flex";
+        displayJS.style.display = "flex";
+        displayPhp.style.display = "none";
     }
     else if(getDay == 3){
     
         console.log('Wednsday');
     
-        displayJS.style.display = "flex";
-        displayPhp.style.display = "none";
+        displayJS.style.display = "none";
+        displayPhp.style.display = "flex";
     }
     else if(getDay == 4){
     
         console.log('Thursday');
     
-        displayJS.style.display = "none";
-        displayPhp.style.display = "flex";
+        displayJS.style.display = "flex";
+        displayPhp.style.display = "none";
     }
     else if(getDay == 5){
     
         console.log('Friday');
     
-        displayJS.style.display = "flex";
-        displayPhp.style.display = "none";
+        displayJS.style.display = "none";
+        displayPhp.style.display = "flex";
     }
     else if(getDay == 6){
     
         console.log('Saturday');
     
-        displayJS.style.display = "none";
-        displayPhp.style.display = "flex";
+        displayJS.style.display = "flex";
+        displayPhp.style.display = "none";
     }
 }
 getDayFunction();
