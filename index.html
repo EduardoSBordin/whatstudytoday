@@ -6,10 +6,26 @@
     <title>What Study Today</title>
 
     <link rel="stylesheet" href="./scripts/main.css">
+    <link rel="stylesheet" href="./scripts/menu.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navDesktop">
+            <a href="#" class="linkNav">Inicio</a>
+            <a href="#" class="linkNav">JavaScript</a>
+            <a href="#" class="linkNav">PhP</a>
+            <a href="#" class="linkNav">SQL</a>
+        </nav>
+
+        <nav id="navMobile">    
+            <button id="btnModal">=</button>
+
+            <div id="linksNavMobileModal">
+            <a href="#" class="linkNav">Inicio</a>
+            <a href="#" class="linkNav">JavaScript</a>
+            <a href="#" class="linkNav">PhP</a>
+            <a href="#" class="linkNav">SQL</a>
+            </div>
 
         </nav>
     </header>
@@ -32,11 +48,13 @@
         </div>
 
         <div id="divImgLogoRight">
-            <img src="./imgs/jslogo.png" alt="JavaScript Logo">
+            <img src="./imgs/logo2.jpg" alt="JavaScript Logo">
         </div>
 
         </div>
 
     </section>
+
+<script src="./scripts/main.js"></script>
 </body>
 </html>
