@@ -15,5 +15,6 @@ getBtnModal.addEventListener('click', () => {
     }
 
     linksNavMobileModal.classList.toggle('active');
+    getBtnModal.classList.toggle('active');
 
 })

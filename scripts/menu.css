@@ -53,12 +53,9 @@ header{
     margin-left: 380px;
     padding: 15px;
     gap: 10px;
-    background: #2e302bbb;
+    background: #2e302b;
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 #linksNavMobileModal.active{
 
@@ -66,7 +63,7 @@ header{
 }
 .linkNav{
 
-    color: #f0da50;
+    color: white;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
@@ -75,12 +72,12 @@ header{
 }
 .linkNav:hover{
 
-    color: #e8cf29;
+    color: rgb(224, 224, 224);
 }
 #btnModal{
 
-    background: rgb(35, 35, 35);
-    color: #e8cf29;
+    background: #2e302b;
+    color: white;
     border: none;
     border-radius: 100%;
     padding: 10px;
@@ -89,6 +86,10 @@ header{
     font-size: 16pt;
     margin-left: 80px;
     cursor: pointer;
+}
+#btnModal.active{
+
+    border-radius: 25px 25px 0px 0px;
 }
 @media (max-width:600px){
 
